@@ -1,0 +1,1 @@
+max v2;#N vpatcher 50 40 284 225;#P inlet 26 22 15 0;#P newex 26 127 145 196617 buffer~ empty empty.aiff -1 2;#B color 5;#P newex 26 85 79 196617 prepend replace;#P newex 122 85 69 196617 prepend name;#P newex 26 64 106 196617 t s s;#P connect 4 0 0 0;#P connect 0 0 2 0;#P connect 1 0 3 0;#P connect 2 0 3 0;#P connect 0 1 1 0;#P pop;
