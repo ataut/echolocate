@@ -2,8 +2,8 @@
 	"name" : "ToyPiano01",
 	"version" : 1,
 	"creationdate" : 3784135541,
-	"modificationdate" : 3795310913,
-	"viewrect" : [ 429.0, 328.0, 300.0, 500.0 ],
+	"modificationdate" : 3795325814,
+	"viewrect" : [ 0.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -80,6 +80,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0,
+	"viewmode" : 1,
 	"includepackages" : 0
 }
