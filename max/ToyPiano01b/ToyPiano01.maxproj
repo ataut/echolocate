@@ -2,8 +2,8 @@
 	"name" : "ToyPiano01",
 	"version" : 1,
 	"creationdate" : 3784135541,
-	"modificationdate" : 3784137380,
-	"viewrect" : [ 739.0, 689.0, 300.0, 500.0 ],
+	"modificationdate" : 3795310913,
+	"viewrect" : [ 429.0, 328.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -41,33 +41,22 @@
 ,
 			"granuel-tri.aiff" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/ataumyoperfold/media",
-					"projectrelativepath" : "../../../GitHub/ataumyoperfold/media"
-				}
-
+				"local" : 1
 			}
 ,
 			"harm.aiff" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/ppooll/media/ppooll-waves",
-					"projectrelativepath" : "../../../GitHub/ppooll/media/ppooll-waves"
-				}
-
+				"local" : 1
 			}
 ,
 			"nowrap-ramp.aiff" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/GitHub/ppooll/media/ppooll-waves",
-					"projectrelativepath" : "../../../GitHub/ppooll/media/ppooll-waves"
-				}
-
+				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,
