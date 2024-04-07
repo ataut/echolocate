@@ -2,7 +2,7 @@
 	"name" : "ToyPiano01",
 	"version" : 1,
 	"creationdate" : 3784135541,
-	"modificationdate" : 3795325814,
+	"modificationdate" : 3795337994,
 	"viewrect" : [ 0.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,6 +20,11 @@
 ,
 		"media" : 		{
 			"ToyC4.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"empty.aiff" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
@@ -61,6 +66,10 @@
 		}
 ,
 		"other" : 		{
+			"buffer2~" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 
