@@ -351,7 +351,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 93.0, 45.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 493.0, 520.0, 66.0, 31.0 ],
+					"presentation_rect" : [ 493.0, 528.0, 66.0, 31.0 ],
 					"text" : "PANIC",
 					"texton" : "PANIC"
 				}
@@ -372,7 +372,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 185.0, 419.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 364.0, 108.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 137.0, 85.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -498,13 +498,14 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 2,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 417.0, 52.0, 24.0 ],
+					"patching_rect" : [ 132.0, 417.0, 52.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 313.0, 108.0, 52.0, 24.0 ],
+					"presentation_rect" : [ 159.0, 85.0, 52.0, 39.0 ],
 					"text" : "go to"
 				}
 
@@ -1672,7 +1673,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 740.0, 133.0, 751.0, 728.0 ],
+						"rect" : [ 685.0, 133.0, 751.0, 728.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9376,29 +9377,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "1gain~",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2gain~",
-				"bootpath" : "~/cleanpatch/lib/objects/manulib/Manuel Lib/dsp+gains~",
-				"patcherrelativepath" : "../../../../../../cleanpatch/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4gain~",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SCP-samples.coll",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/scp",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/scp",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -9418,43 +9419,43 @@
 			}
 , 			{
 				"name" : "buffer2~",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "click2b.wav",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/audio",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/audio",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "click3.wav",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/audio",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/audio",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "enabler",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fenv",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonizer~",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
@@ -9464,36 +9465,36 @@
 			}
 , 			{
 				"name" : "listiter",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listreg",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "openwin",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "panst~",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "print-dspstate",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
@@ -9506,22 +9507,22 @@
 			}
 , 			{
 				"name" : "sender~",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swap~",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/Modules/msp modules/lib",
-				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/Modules/msp modules/lib",
+				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
+				"patcherrelativepath" : "../other",
 				"type" : "maxb",
 				"implicit" : 1
 			}
