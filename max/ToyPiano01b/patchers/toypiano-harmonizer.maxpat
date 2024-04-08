@@ -483,15 +483,15 @@
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-47",
-					"linecount" : 29,
+					"linecount" : 31,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 907.0, 48.0, 277.0, 395.0 ],
+					"patching_rect" : [ 907.0, 48.0, 277.0, 422.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 25,
-					"presentation_rect" : [ 527.5, 158.0, 375.0, 342.0 ],
-					"text" : "INSTRUCTIONS:\n0. DSP will turn on automatically \n1. Check DSP settings:\n    - Input Device set to audio interface channel where the piano mic is plugged in\n    - Output Device set to audio interface\n    - Output channel mapping (1, 2 = L/R, Ch 3 = click)\n2. Turn On transport to begin\n    (Click will start automatically)\n3. (Optional) Adjust click track volume\n4. (Optional) Turn Off click track\n\nFOR REHEARSAL:\n5. Type bar number to begin at a specific point (Stop transport)\n____________________________\n\n• Click REWIND to initialize the score and start from beginning\n• Click PANIC to interrupt\n____________________________\n\nFOR SOUNDCHECK:\n6. Check mic input level with VU meter Adc 1 \nIf dry mic sound is needed in sound system, turn up \"to dacs\"\n\n7. Master Volume for audio output"
+					"presentation_linecount" : 26,
+					"presentation_rect" : [ 527.5, 152.0, 375.0, 355.0 ],
+					"text" : "INSTRUCTIONS:\n0. DSP will turn on automatically \n1. Check DSP settings:\n    - Input Device set to audio interface channel where the piano mic is plugged in\n    - Output Device set to audio interface\n    - Output channel mapping (1, 2 = L/R, Ch 3 = click)\n2. Turn On transport to begin\n    (Click will start automatically)\n3. (Optional) Adjust click track volume\n4. (Optional) Turn Off click track\n\nFOR REHEARSAL:\n5. Type bar number to begin at a specific point (Stop transport)\n____________________________\n\n• Click REWIND to initialize the score and start from beginning\n• Click PANIC to interrupt\n• Click Harmonizers label to see harmonizer settings\n____________________________\n\nFOR SOUNDCHECK:\n6. Check mic input level with VU meter Adc 1 \nIf dry mic sound is needed in sound system, turn up \"to dacs\"\n\n7. Master Volume for audio output"
 				}
 
 			}
