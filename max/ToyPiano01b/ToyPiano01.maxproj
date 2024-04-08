@@ -2,12 +2,12 @@
 	"name" : "ToyPiano01",
 	"version" : 1,
 	"creationdate" : 3784135541,
-	"modificationdate" : 3795337994,
+	"modificationdate" : 3795440434,
 	"viewrect" : [ 0.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
 			"toypiano-harmonizer.maxpat" : 			{
