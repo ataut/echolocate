@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 335.0, 87.0, 488.0, 492.0 ],
+		"rect" : [ 157.0, 99.0, 928.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,156 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 222.0, 393.0, 38.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 392.0, 176.5, 32.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"text" : "sec",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 133.0, 393.0, 31.0, 38.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 351.0, 176.5, 33.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
+					"text" : "min",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-18",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 69.0, 219.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 249.0, 459.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "7",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-12",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 54.0, 204.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 249.0, 223.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "6",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 207.0, 58.0, 55.0, 35.0 ],
+					"text" : ";\rdsp start"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 207.0, 27.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 629.0, 280.0, 344.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 527.5, 98.0, 368.0, 40.0 ],
+					"text" : "Score preparation and software programming by Francesco Di Maggio\nTranscription assistance by Lara Serafin\nHarmonizer by Manuel Poletti"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 629.0, 214.0, 345.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 527.5, 52.0, 368.0, 40.0 ],
+					"text" : "Commision by Tricia Dawn Williams as part of the ToyPiano+ Project.\nSupported by Arts Council Malta\nFirst performance on Friday 3 May, 2024 at Spazju Kreattiv, Valletta, MALTA"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-17",
 					"maxclass" : "textbutton",
@@ -49,7 +199,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 522.0, 188.0, 91.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 410.0, 389.0, 65.0, 20.0 ],
+					"presentation_rect" : [ 494.0, 564.0, 65.0, 20.0 ],
 					"text" : "DSP",
 					"texton" : "reset"
 				}
@@ -121,8 +271,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 42.0, 65.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 416.0, 292.0, 65.0, 20.0 ],
 					"text" : "no repeats"
 				}
 
@@ -134,8 +282,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 27.0, 49.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 416.0, 276.0, 49.0, 20.0 ],
 					"text" : "repeats"
 				}
 
@@ -151,8 +297,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 64.0, 28.0, 18.0, 34.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 396.0, 277.0, 18.0, 34.0 ],
 					"size" : 2,
 					"value" : 0
 				}
@@ -167,7 +311,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 154.0, 682.0, 13.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.0, 324.0, 7.0, 155.0 ]
+					"presentation_rect" : [ 91.0, 487.0, 7.0, 155.0 ]
 				}
 
 			}
@@ -207,7 +351,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 93.0, 45.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 409.0, 345.0, 66.0, 31.0 ],
+					"presentation_rect" : [ 493.0, 520.0, 66.0, 31.0 ],
 					"text" : "PANIC",
 					"texton" : "PANIC"
 				}
@@ -228,7 +372,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 185.0, 419.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 223.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 364.0, 108.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -250,7 +394,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 44.0, 510.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 289.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 23.0, 452.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -272,7 +416,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.0, 553.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 388.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 23.0, 551.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -294,7 +438,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 39.0, 189.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 144.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 16.0, 131.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -316,7 +460,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 553.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 383.0, 437.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 472.0, 564.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -331,7 +475,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 540.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 410.0, 414.0, 65.0, 65.0 ]
+					"presentation_rect" : [ 494.0, 589.0, 65.0, 65.0 ]
 				}
 
 			}
@@ -339,29 +483,28 @@
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-47",
-					"linecount" : 14,
+					"linecount" : 29,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 907.0, 48.0, 273.0, 194.0 ],
+					"patching_rect" : [ 907.0, 48.0, 277.0, 395.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 14,
-					"presentation_rect" : [ 112.0, 277.0, 273.0, 194.0 ],
-					"text" : "INSTRUCTIONS:\n\n1. Turn On DSP\n2. Turn On transport to begin\n    (Click will start automatically)\n3. (Optional) Adjust click track volume\n4. (Optional) Turn Off click track\n\nFOR REHEARSAL:\n5. Type bar number to begin at a specific point\n____________________________\n\n• Click reset to initialize the score\n• Click PANIC to interrupt"
+					"presentation_linecount" : 25,
+					"presentation_rect" : [ 527.5, 158.0, 375.0, 342.0 ],
+					"text" : "INSTRUCTIONS:\n0. DSP will turn on automatically \n1. Check DSP settings:\n    - Input Device set to audio interface channel where the piano mic is plugged in\n    - Output Device set to audio interface\n    - Output channel mapping (1, 2 = L/R, Ch 3 = click)\n2. Turn On transport to begin\n    (Click will start automatically)\n3. (Optional) Adjust click track volume\n4. (Optional) Turn Off click track\n\nFOR REHEARSAL:\n5. Type bar number to begin at a specific point (Stop transport)\n____________________________\n\n• Click REWIND to initialize the score and start from beginning\n• Click PANIC to interrupt\n____________________________\n\nFOR SOUNDCHECK:\n6. Check mic input level with VU meter Adc 1 \nIf dry mic sound is needed in sound system, turn up \"to dacs\"\n\n7. Master Volume for audio output"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 417.0, 52.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.0, 221.0, 52.0, 24.0 ],
+					"presentation_rect" : [ 313.0, 108.0, 52.0, 24.0 ],
 					"text" : "go to"
 				}
 
@@ -406,39 +549,45 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 14.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 844.0, 138.0, 35.0, 20.0 ],
+					"patching_rect" : [ 844.0, 138.0, 40.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.0, 76.0, 35.0, 20.0 ],
+					"presentation_rect" : [ 435.0, 78.0, 40.0, 22.0 ],
 					"text" : "2024"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 14.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 804.0, 118.0, 75.0, 20.0 ],
+					"patching_rect" : [ 804.0, 118.0, 91.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 53.0, 75.0, 20.0 ],
+					"presentation_rect" : [ 383.0, 52.0, 91.0, 22.0 ],
 					"text" : "Atau Tanaka"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 14.0,
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 680.0, 90.0, 199.0, 20.0 ],
+					"patching_rect" : [ 680.0, 90.0, 249.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 54.0, 199.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 52.0, 249.0, 22.0 ],
 					"text" : "for toy piano and harmonizing delay"
 				}
 
@@ -496,7 +645,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 214.0, 60.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 95.0, 60.0, 21.0 ],
+					"presentation_rect" : [ 45.0, 85.0, 60.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -517,7 +666,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.0, 510.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 258.0, 32.0, 20.0 ],
+					"presentation_rect" : [ 49.0, 421.0, 32.0, 20.0 ],
 					"text" : "click"
 				}
 
@@ -533,8 +682,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -684,7 +833,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 154.0, 546.0, 167.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 324.0, 34.0, 155.0 ],
+					"presentation_rect" : [ 48.0, 487.0, 34.0, 155.0 ],
 					"size" : 158.0
 				}
 
@@ -722,7 +871,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.0, 709.0, 45.0, 22.0 ],
-					"text" : "dac~ 1"
+					"text" : "dac~ 3"
 				}
 
 			}
@@ -737,7 +886,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 68.0, 508.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 282.0, 34.0, 34.0 ],
+					"presentation_rect" : [ 48.0, 445.0, 34.0, 34.0 ],
 					"varname" : "toggle"
 				}
 
@@ -753,8 +902,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1260,11 +1409,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 378.0, 188.0, 54.0, 22.0 ],
+					"patching_rect" : [ 378.0, 188.0, 68.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 217.0, 66.0, 31.0 ],
-					"text" : "RESET",
-					"texton" : "reset"
+					"presentation_rect" : [ 42.0, 176.5, 66.0, 31.0 ],
+					"text" : "REWIND",
+					"texton" : "rewind"
 				}
 
 			}
@@ -1279,7 +1428,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 64.0, 187.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 121.0, 66.0, 66.0 ]
+					"presentation_rect" : [ 42.0, 108.0, 66.0, 66.0 ]
 				}
 
 			}
@@ -1341,15 +1490,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 18.0,
 					"id" : "obj-131",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 378.0, 32.0, 20.0 ],
+					"patching_rect" : [ 207.0, 378.0, 46.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 436.0, 195.0, 32.0, 20.0 ],
+					"presentation_rect" : [ 239.0, 172.0, 46.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -1364,15 +1514,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 18.0,
 					"id" : "obj-132",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.0, 378.0, 26.0, 20.0 ],
+					"patching_rect" : [ 118.0, 378.0, 37.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.0, 195.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 148.0, 172.0, 37.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -1408,7 +1559,7 @@
 					"bgcolor" : [ 0.19999997317791, 0.199999943375587, 0.19999997317791, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 16.0,
+					"fontsize" : 48.0,
 					"id" : "obj-149",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -1416,9 +1567,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 154.0, 372.0, 47.0, 26.0 ],
+					"patching_rect" : [ 154.0, 372.0, 88.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 428.0, 220.0, 47.0, 26.0 ],
+					"presentation_rect" : [ 218.0, 108.0, 88.0, 62.0 ],
 					"textcolor" : [ 0.145098039215686, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1428,16 +1579,16 @@
 					"bgcolor" : [ 0.19999997317791, 0.199999943375587, 0.19999997317791, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 20.0,
+					"fontsize" : 48.0,
 					"id" : "obj-150",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 64.0, 372.0, 52.0, 31.0 ],
+					"patching_rect" : [ 64.0, 372.0, 89.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 362.0, 217.0, 52.0, 31.0 ],
+					"presentation_rect" : [ 122.0, 108.0, 89.0, 62.0 ],
 					"textcolor" : [ 0.145098039215686, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1447,15 +1598,15 @@
 					"bgcolor" : [ 0.19999997317791, 0.199999943375587, 0.19999997317791, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Lato",
-					"fontsize" : 50.0,
+					"fontsize" : 24.0,
 					"id" : "obj-119",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 425.0, 417.0, 66.0 ],
+					"patching_rect" : [ 378.0, 425.0, 207.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 121.0, 360.0, 66.0 ],
-					"text" : "  0 : 0 : 0 . 0.00",
+					"presentation_rect" : [ 313.0, 135.0, 178.0, 35.0 ],
+					"text" : "  0 : 1 : 50 . 129",
 					"textcolor" : [ 0.145098039215686, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1504,7 +1655,7 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontsize" : 20.0,
+					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1514,14 +1665,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 609.0, 87.0, 751.0, 728.0 ],
+						"rect" : [ 740.0, 133.0, 751.0, 728.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1721,7 +1872,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-57",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -1864,8 +2014,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2046,8 +2196,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2345,8 +2495,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 6,
-																			"revision" : 2,
+																			"minor" : 5,
+																			"revision" : 6,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2700,8 +2850,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 6,
-																			"revision" : 2,
+																			"minor" : 5,
+																			"revision" : 6,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2963,8 +3113,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 6,
-																			"revision" : 2,
+																			"minor" : 5,
+																			"revision" : 6,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3357,7 +3507,6 @@
 																			"parameter_longname" : "live.gain~",
 																			"parameter_mmax" : 6.0,
 																			"parameter_mmin" : -70.0,
-																			"parameter_modmode" : 0,
 																			"parameter_shortname" : "live.gain~",
 																			"parameter_type" : 0,
 																			"parameter_unitstyle" : 4
@@ -3988,8 +4137,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4333,8 +4482,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5101,8 +5250,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5302,8 +5451,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5564,8 +5713,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 2,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5820,8 +5969,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6041,8 +6190,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6555,8 +6704,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6795,8 +6944,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7578,8 +7727,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7781,8 +7930,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8085,8 +8234,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8831,9 +8980,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 64.0, 88.0, 80.0, 31.0 ],
+					"patching_rect" : [ 64.0, 88.0, 51.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 217.0, 80.0, 31.0 ],
+					"presentation_rect" : [ 440.0, 108.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -8862,6 +9011,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 816.0, 307.0, 455.0, 451.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 100.0, 217.0, 455.0, 451.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -9008,7 +9159,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 134.5, 174.0, 387.5, 174.0 ],
+					"midpoints" : [ 105.5, 174.0, 387.5, 174.0 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -9133,7 +9284,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
-					"midpoints" : [ 73.5, 312.0, 24.0, 312.0, 24.0, 75.0, 134.5, 75.0 ],
+					"midpoints" : [ 73.5, 312.0, 24.0, 312.0, 24.0, 75.0, 105.5, 75.0 ],
 					"order" : 0,
 					"source" : [ "obj-56", 0 ]
 				}
@@ -9201,6 +9352,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-20::obj-13::obj-186::obj-4" : [ "live.gain~", "live.gain~", 0 ],
@@ -9218,29 +9376,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "1gain~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2gain~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/cleanpatch/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"patcherrelativepath" : "../../../../../../cleanpatch/lib/objects/manulib/Manuel Lib/dsp+gains~",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4gain~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SCP-samples.coll",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/scp",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/scp",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -9260,43 +9418,43 @@
 			}
 , 			{
 				"name" : "buffer2~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "click2b.wav",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/media",
-				"patcherrelativepath" : "../media",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/audio",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/audio",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "click3.wav",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/media",
-				"patcherrelativepath" : "../media",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/audio",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/audio",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "enabler",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fenv",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonizer~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
 				"type" : "maxb",
 				"implicit" : 1
 			}
@@ -9306,36 +9464,36 @@
 			}
 , 			{
 				"name" : "listiter",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listreg",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/gigs/myo/Myo Gig 2019/externals",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "openwin",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "panst~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "print-dspstate",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
 				"type" : "maxb",
 				"implicit" : 1
 			}
@@ -9348,22 +9506,22 @@
 			}
 , 			{
 				"name" : "sender~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/objects/manulib/Manuel Lib/dsp+gains~",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swap~",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/scp-abs",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru",
-				"bootpath" : "~/Documents/GitHub/echolocate/max/ToyPiano01b/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/Modules/msp modules/lib",
+				"patcherrelativepath" : "../../../../../../Library/CloudStorage/Dropbox/projmusic30/Myogram/lib/abstractions/Modules/msp modules/lib",
 				"type" : "maxb",
 				"implicit" : 1
 			}
